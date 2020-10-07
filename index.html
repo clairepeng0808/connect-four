@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title>Connect Four</title>
+
+    <!-- bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+
+    <!-- css -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="controller.ico" type="image/x-icon">
+  </head>
+
+  <body>
+
+    <div class="container"></div>
+      <div class="jumbotron">
+        <h1 class="display-4">Welcome to Connect Four!</h1>
+        <p class="lead">
+          The object of this game is to connect four of your chips in a row.
+        </p>
+      </div>
+    </div>
+    <div class='container'>
+    <h3 id='message'>
+        Hello! Can't wait to start the game! Blue Player, you go first!
+    </h3>
+    <h3 id='endgame'>
+    </h3>
+    </div>
+    <table class='board'>
+        <tr>
+            <td><button type="button"></button></td>
+            <td><button type="button"></button></td>
+            <td><button type="button"></button></td>
+            <td><button type="button"></button></td>
+            <td><button type="button"></button></td>
+            <td><button type="button"></button></td>
+            <td><button type="button"></button></td>
+        </tr>
+        <tr>
+            <td><button type="button"></button></td>
+            <td><button type="button"></button></td>
+            <td><button type="button"></button></td>
+            <td><button type="button"></button></td>
+            <td><button type="button"></button></td>
+            <td><button type="button"></button></td>
+            <td><button type="button"></button></td>
+        </tr>
+        <tr>
+            <td><button type="button"></button></td>
+            <td><button type="button"></button></td>
+            <td><button type="button"></button></td>
+            <td><button type="button"></button></td>
+            <td><button type="button"></button></td>
+            <td><button type="button"></button></td>
+            <td><button type="button"></button></td>
+        </tr>
+        <tr>
+            <td><button type="button"></button></td>
+            <td><button type="button"></button></td>
+            <td><button type="button"></button></td>
+            <td><button type="button"></button></td>
+            <td><button type="button"></button></td>
+            <td><button type="button"></button></td>
+            <td><button type="button"></button></td>
+        </tr>
+        <tr>
+            <td><button type="button"></button></td>
+            <td><button type="button"></button></td>
+            <td><button type="button"></button></td>
+            <td><button type="button"></button></td>
+            <td><button type="button"></button></td>
+            <td><button type="button"></button></td>
+            <td><button type="button"></button></td>
+        </tr>
+        <tr>
+            <td><button type="button"></button></td>
+            <td><button type="button"></button></td>
+            <td><button type="button"></button></td>
+            <td><button type="button"></button></td>
+            <td><button type="button"></button></td>
+            <td><button type="button"></button></td>
+            <td><button type="button"></button></td>
+        </tr>
+    </table>
+
+    <!-- jQuery -->
+    <script
+    src="https://code.jquery.com/jquery-3.5.1.js"
+    integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous"></script>
+
+    <!-- Javascript -->
+    <script src="connect-four.js"></script>
+  </body>
+</html>
